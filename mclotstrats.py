@@ -63,6 +63,6 @@ def mcG(N=100,balls=4,low=1,high=30,ticketN=5):
   plt.plot(x,sum_winners,'o',color='magenta')
   plt.show()
 
-  plt.clf()
-  plt.cla()
-  plt.close()
+  #plt.clf()
+  #plt.cla()
+  #plt.close()
