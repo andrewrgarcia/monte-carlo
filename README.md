@@ -1,5 +1,5 @@
-# monte-carlo
-Examples of Monte Carlo simulations of the simple kind
+# Basics of Monte Carlo algorithm explained through examples
+#### Developer: Andrew Garcia
 
 ## mc_simple.py
 Simple Monte Carlo **mc_simple.py**: Sample inputs from their corresponding random distributions to generate output distribution.
