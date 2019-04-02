@@ -1,5 +1,5 @@
 # Basics of Monte Carlo algorithm explained through examples
-## Author / Developer: Andrew Garcia
+## Author: Andrew Garcia, 2019
 
 ## mc_simple.py
 Simple Monte Carlo **mc_simple.py**: Sample inputs from their corresponding random distributions to generate output distribution.
@@ -16,17 +16,24 @@ Simulating Monte Hall problem through conditional selection (Monte Carlo algorit
 ## montemarathon.py
 The rejection sampling criterion:
 
+
 U = [random number from uniform distribution (0,1)]
+
 if P(x) > U
+
   accept x (label with blue)
+
 else
+
   reject x (label with orange)
+
 
 ![Screenshot](rejs_Figure_1.png)
 
 can be understood to be based on the premise that sampling "U" values above those of a probability distribution of a certain event do not constitute a part of said event and are thus rejected.
 
 In a similar way, for rejection sampling based on a single value:
+
 
 [accept x if P > U else reject x]
 
