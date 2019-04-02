@@ -1,5 +1,5 @@
 # Basics of Monte Carlo algorithm explained through examples
-#### Developer: Andrew Garcia
+## Author / Developer: Andrew Garcia
 
 ## mc_simple.py
 Simple Monte Carlo **mc_simple.py**: Sample inputs from their corresponding random distributions to generate output distribution.
@@ -22,16 +22,19 @@ if P(x) > U
 else
   reject x (label with orange)
 
+![Screenshot](rejs_Figure_1.png)
+
 can be understood to be based on the premise that sampling "U" values above those of a probability distribution of a certain event do not constitute a part of said event and are thus rejected.
 
 In a similar way, for rejection sampling based on a single value:
 
 [accept x if P > U else reject x]
 
-![Screenshot](rejs_Figure_1.png)
+![Screenshot](rejs_Figure_2.png)
 
 Event cannot pass with a higher probability than determined. Colloquially speaking, it is highly unlikely for you to flip an unbiased coin and get heads the first 99 flips and tails on the 100th.
 
+
 Example of rejection sampling MC based on uniformly dist. probabilities; Marathon Race Outcomes under different strategies (run-jog-run/jog)
 
-![Screenshot](rejs_Figure_2.png)
+![Screenshot](montemarathon_Figure_1.png)
