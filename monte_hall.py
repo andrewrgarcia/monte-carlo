@@ -140,7 +140,7 @@ def game(trial,animation='off',new='off'):
         plt.suptitle('The Monty Hall Problem',size =13)
         plt.title('Game # {}: {}'.format(trial+1,msg),size =13)
 #        plt.show()
-        plt.pause(0.0000001)
+        plt.pause(0.000001)
 
 
     return final_choice
@@ -155,8 +155,8 @@ def iters(trials):
 
     return [car, goat]
 
-def static_bar():
-    N=100
+def static_bar(N):
+#    N=100
     y=iters(N)
     car,goat = y
     x=[-0.125, 1- 0.125]
@@ -169,10 +169,10 @@ def static_bar():
     plt.title('{} games simulated'.format(N),size=13)
     plt.xticks(x,['won','lost'],size=15)
 
-static_bar()
+static_bar(100)
 
-def dyn_bar():
-    N=100
+def dyn_bar(N):
+#    N=100
     k=1
     c, g = [],[]
     while k < N:
@@ -198,4 +198,4 @@ def dyn_bar():
         plt.xticks(x,['won','lost'],size=15)
         plt.pause(0.000001)
         
-#dyn_bar()
+#dyn_bar(100)

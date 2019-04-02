@@ -16,12 +16,12 @@ Andrew Garcia, 2019'''
 
 
 'bad runners - probabilities for injuries / exhaustion high '
-#probs_run = [0.40, 0.40, 0.01]
-#v_run = 12.5        #speed, miles per hour
+probs_run = [0.40, 0.40, 0.01]
+v_run = 12.5        #speed, miles per hour
 
 'better runners - probabilities for injuries / exhaustion reduced'
-probs_run = [0.20, 0.30, 0.01]
-v_run = 12.5        #speed, miles per hour
+#probs_run = [0.20, 0.30, 0.01]
+#v_run = 12.5        #speed, miles per hour
 
 'joggers probabilities all the same whether good or bad'
 probs_jog = [0.01, 0.00001, 0.00001]

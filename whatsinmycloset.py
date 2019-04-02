@@ -100,5 +100,4 @@ def iters(N):
     plt.ylabel('P',size=13)
     plt.show()
     
-iters(10000)
-
+iters(10)
