@@ -14,7 +14,24 @@ Simulating Monte Hall problem through conditional selection (Monte Carlo algorit
 ![Screenshot](montehall_Figure_2.png)
 
 ## montemarathon.py
+The rejection sampling criterion:
+
+U = [random number from uniform distribution (0,1)]
+if P(x) > U
+  accept x (label with blue)
+else
+  reject x (label with orange)
+
+can be understood to be based on the premise that sampling "U" values above those of a probability distribution of a certain event do not constitute a part of said event and are thus rejected.
+
+In a similar way, for rejection sampling based on a single value:
+
+[accept x if P > U else reject x]
+
+![Screenshot](rejs_Figure_1.png)
+
+Event cannot pass with a higher probability than determined. Colloquially speaking, it is highly unlikely for you to flip an unbiased coin and get heads the first 99 flips and tails on the 100th.
 
 Example of rejection sampling MC based on uniformly dist. probabilities; Marathon Race Outcomes under different strategies (run-jog-run/jog)
 
-![Screenshot](montemarathon_Figure_1.png)
+![Screenshot](rejs_Figure_2.png)
