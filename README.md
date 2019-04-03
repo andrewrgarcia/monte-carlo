@@ -1,4 +1,4 @@
-# Basics of Monte Carlo algorithm explained through examples
+# A Primer on Monte Carlo Methods
 ## Author: Andrew Garcia
 
 Copyright 2019 Andrew Garcia
@@ -32,14 +32,14 @@ The rejection sampling criterion:
 
 
 U = [random number from uniform distribution (0,1)]
-
+P(x) = Probability density function (e.g. ~ exp(-x**2))
 if P(x) > U
 
-  accept x (label with blue)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;accept x (label with blue)
 
 else
 
-  reject x (label with orange)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reject x (label with orange)
 
 
 ![Screenshot](rejs_Figure_1.png)
