@@ -32,12 +32,14 @@ The rejection sampling criterion:
 
 
 U = [random number from uniform distribution (0,1)]
+
 P(x) = Probability density function (e.g. ~ exp(-x**2))
-if P(x) > U
+
+**if** P(x) > U
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;accept x (label with blue)
 
-else
+**else**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reject x (label with orange)
 
@@ -49,7 +51,7 @@ can be understood to be based on the premise that sampling "U" values above thos
 In a similar way, for rejection sampling based on a single value:
 
 
-[accept x if P > U else reject x]
+[accept x **if** P > U **else** reject x]
 
 ![Screenshot](rejs_Figure_2.png)
 
