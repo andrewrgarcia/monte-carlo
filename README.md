@@ -51,12 +51,7 @@ can be understood to be based on the premise that sampling "U" values above thos
 
 In a similar way, for rejection sampling based on a single value:
 
-
 [accept x **if** P > U **else** reject x]
-
-<img src="rejs_Figure_2.png" alt="drawing" width="350"/>
-
-Event cannot pass with a higher probability than determined.
 
 Example of rejection sampling MC, Marathon Race Outcomes under different strategies (run-jog-run/jog)
 
