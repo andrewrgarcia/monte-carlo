@@ -49,10 +49,6 @@ P(x) = Probability density function (e.g. ~ exp(-x**2))
 
 can be understood to be based on the premise that sampling "U" values above those of a probability distribution of a certain event do not constitute a part of said event and are thus rejected.
 
-In a similar way, for rejection sampling based on a single value:
-
-[accept x **if** P > U **else** reject x]
-
-Example of rejection sampling MC, Marathon Race Outcomes under different strategies (run-jog-run/jog)
+Example: Marathon Race Outcomes under different strategies (run-jog-run/jog)
 
 <img src="montemarathon_Figure_1.png" alt="drawing" width="350"/>
