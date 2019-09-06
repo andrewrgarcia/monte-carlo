@@ -74,7 +74,7 @@ def single(show='off'):
     
     return sum(data)
 
-#single('on')
+single('on')
 
 def iters(N):
     
@@ -100,4 +100,4 @@ def iters(N):
     plt.ylabel('P',size=13)
     plt.show()
     
-iters(10)
+iters(100000)
