@@ -16,4 +16,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 # Read Jupyter Notebook
-<img src="jupyter.png" alt="drawing" width="500"/></a><a href="https://github.com/andrewrgarcia/monte-carlo/blob/master/montecarlo.ipynb">
+<a href="https://github.com/andrewrgarcia/monte-carlo/blob/master/montecarlo.ipynb"><img src="jupyter.png" alt="drawing" width="100"/></a>
