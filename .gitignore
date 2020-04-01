@@ -3,10 +3,11 @@ car.png
 door.png
 goat.png
 coinrep.py
-\.ipynb_checkpoints
 pds_database.py
 pdsfit.py
+\.ipynb_checkpoints
 \__pycache__
+\youtube
 
 # Windows image file caches
 Thumbs.db
