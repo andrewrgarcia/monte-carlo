@@ -1,13 +1,20 @@
+# Directories
+\.ipynb_checkpoints
+\__pycache__
+\youtube
+\dungeon_games
+
+# Figures Excel blah blah
 mc_simple_Excel.xlsx
 car.png
 door.png
 goat.png
+
+# Python files
 coinrep.py
+star_games.py
 pds_database.py
 pdsfit.py
-\.ipynb_checkpoints
-\__pycache__
-\youtube
 
 # Windows image file caches
 Thumbs.db

@@ -212,7 +212,7 @@ def dyn_bar(N):
         plt.xticks([0,1,2,4,5,6,8,9,10],['2nd','1st','3rd']*3,size=13)
 
 
-        plt.pause(0.000001)
+        plt.pause(0.00000001)
         
     plt.text(0-.5,R2nd+1,'{} %'.format(np.round(R2nd*100/j,2)),size=14)
     plt.text(1-.5,R1st+1,'{} %'.format(np.round(R1st*100/j,2)),size=14)
