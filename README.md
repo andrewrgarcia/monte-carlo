@@ -1,2 +1,5 @@
-# See Jupyter Notebook
-<a href="https://github.com/andrewrgarcia/monte-carlo/blob/master/montecarlo_garcia.ipynb"><img src="figures/jupyter.png" alt="drawing" width="100"/></a>
+# monte-carlo
+
+Click on image below for Google Colab Notebook 
+
+[![](colaboratory.svg)](https://colab.research.google.com/drive/1EQmRJ4GeXcyIkgLUn59Fnt3gwv_yQlu-?usp=sharing)
